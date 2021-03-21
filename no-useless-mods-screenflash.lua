@@ -1,3 +1,3 @@
 ScreenFlashWindow = {}
-ScreenFlashWindow.setEnabled = function(able)
+ScreenFlashWindow.SetEnabled = function(able)
 end
