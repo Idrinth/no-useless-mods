@@ -8,8 +8,13 @@
 		
 		<VersionSettings gameVersion="1.4.8" windowsVersion="1.0" savedVariablesVersion="1.0" />
 
+        <WARInfo>
+			<Categories>
+				<Category name="OTHER" />
+			</Categories>
+      	</WARInfo>
 		<Description text="Disables useless mods" />
-			<Files>
+		<Files>
             <File name="no-useless-mods-friendsuggester.lua" />
 		</Files>
 		<OnInitialize>

@@ -1,4 +1,4 @@
-NoFriendSuggester = {version="1.2.0"}
+NoFriendSuggester = {}
 
 function NoFriendSuggester.Update( dt )
 end
