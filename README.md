@@ -16,3 +16,5 @@ All can be enabled or disabled individually:
 - warband (see squared or enemy)
 - xpbar (useless to have it at r40)
 - screenflash (likely turned invisible, flashes red when taking damage)
+- party (squared, enemy)
+- socialbutton -. the heads of the chat
