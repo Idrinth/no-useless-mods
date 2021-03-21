@@ -2,7 +2,7 @@
 
 <ModuleFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 
-	<UiMod name="NoUselessMods-FriendSuggester" version="1.2.0" date="2021-03-20" >
+	<UiMod name="NoUselessMods-FriendSuggester" version="1.2.1" date="2021-03-21" >
 
 		<Author name="Idrinth" />
 		
