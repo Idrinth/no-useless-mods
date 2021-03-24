@@ -1,6 +1,7 @@
-NoParty = {}
+NoUselessMods = NoUselessMods or {}
+NoUselessMods.Party = {}
 
-function NoParty.Initialize()
+function NoUselessMods.Party.Initialize()
 	DestroyWindow("GroupWindow")
 	DestroyWindow("GroupWindowPlayer1")
 	DestroyWindow("GroupWindowPlayer2")

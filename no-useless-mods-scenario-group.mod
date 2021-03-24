@@ -2,7 +2,7 @@
 
 <ModuleFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 
-	<UiMod name="NoUselessMods-ScenarioGroup" version="1.2.1" date="2021-03-21" >
+	<UiMod name="NoUselessMods-ScenarioGroup" version="1.4.0" date="2021-03-24" >
 
 		<Author name="Idrinth" />
 		
@@ -15,6 +15,16 @@
       	</WARInfo>
 		<Description text="Disables useless mods" />
 		<Replaces name="EA_ScenarioGroupWindow" />
+		<Dependencies>
+			<Dependency name="Careful Core Functions" />
+			<Dependency name="EA_OverheadMapWindow" />
+		</Dependencies>
+		<Files>
+            <File name="no-useless-mods-scenario-group.lua" />
+		</Files>
+		<OnInitialize>
+            <CallFunction name="NoUselessMods.ScenarioGroup.Initialize" />
+		</OnInitialize>
 	</UiMod>
 
 </ModuleFile>

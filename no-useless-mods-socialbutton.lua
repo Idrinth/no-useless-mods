@@ -1,5 +1,6 @@
-NoSocialButton = {}
+NoUselessMods = NoUselessMods or {}
+NoUselessMods.SocialButton = {}
 
-function NoSocialButton.Initialize()
+function NoUselessMods.SocialButton.Initialize()
 	DestroyWindow("ChatWindowSocialWindowButton")
 end

@@ -2,7 +2,7 @@
 
 <ModuleFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 
-	<UiMod name="NoUselessMods-AuctionHouse" version="1.4.0" date="2021-03-24" >
+	<UiMod name="NoUselessMods-ZoneControl" version="1.4.0" date="2021-03-24" >
 
 		<Author name="Idrinth" />
 		
@@ -14,7 +14,7 @@
 			</Categories>
       	</WARInfo>
 		<Description text="Disables useless mods" />
-		<Replaces name="EA_AuctionHouseWindow" />
+		<Replaces name="EA_ZoneControlWindow" />
 		<Dependencies>
 			<Dependency name="Careful Core Functions" />
 		</Dependencies>

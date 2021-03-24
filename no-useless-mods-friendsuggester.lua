@@ -1,9 +1,10 @@
-NoFriendSuggester = {}
+NoUselessMods = NoUselessMods or {}
+NoUselessMods.FriendSuggester = {}
 
-function NoFriendSuggester.Update( dt )
+function NoUselessMods.FriendSuggester.Update( dt )
 end
 
-function NoFriendSuggester.Initialize()
+function NoUselessMods.FriendSuggester.Initialize()
     UnregisterEventHandler( SystemData.Events.SOCIAL_YOU_HAVE_BEEN_FRIENDED, "FriendSuggester.OnYouHaveBeenFriended" )
     UnregisterEventHandler( SystemData.Events.GROUP_UPDATED, "FriendSuggester.OnPartyUpdated" )
     UnregisterEventHandler( SystemData.Events.BATTLEGROUP_UPDATED, "FriendSuggester.OnWarbandUpdated" )
@@ -12,5 +13,5 @@ function NoFriendSuggester.Initialize()
 
     -- purge old data
     FriendSuggester.Data = {}
-    FriendSuggester.Update = NoFriendSuggester.Update
+    FriendSuggester.Update = NoUselessMods.FriendSuggester.Update
 end

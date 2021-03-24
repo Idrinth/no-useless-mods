@@ -2,7 +2,7 @@
 
 <ModuleFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 
-	<UiMod name="NoUselessMods-SocialButton" version="1.2.1" date="2021-03-21" >
+	<UiMod name="NoUselessMods-SocialButton" version="1.4.0" date="2021-03-24" >
 
 		<Author name="Idrinth" />
 		
@@ -17,9 +17,12 @@
             <File name="no-useless-mods-socialbutton.lua" />
 		</Files>
 		<OnInitialize>
-            <CallFunction name="NoSocialButton.Initialize" />
+            <CallFunction name="NoUselessMods.SocialButton.Initialize" />
 		</OnInitialize>
 		<Description text="Disables useless mods" />
+		<Dependencies>
+			<Dependency name="Careful Core Functions" />
+		</Dependencies>
 	</UiMod>
 
 </ModuleFile>

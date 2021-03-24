@@ -2,7 +2,7 @@
 
 <ModuleFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 
-	<UiMod name="NoUselessMods-Party" version="1.2.1" date="2021-03-21" >
+	<UiMod name="NoUselessMods-Party" version="1.4.0" date="2021-03-24" >
 
 		<Author name="Idrinth" />
 
@@ -17,8 +17,11 @@
             <File name="no-useless-mods-party.lua" />
 		</Files>
 		<OnInitialize>
-            <CallFunction name="NoParty.Initialize" />
+            <CallFunction name="NoUselessMods.Party.Initialize" />
 		</OnInitialize>
+		<Dependencies>
+			<Dependency name="Careful Core Functions" />
+		</Dependencies>
 	</UiMod>
 
 </ModuleFile>
