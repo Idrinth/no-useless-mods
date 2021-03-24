@@ -18,3 +18,5 @@ All can be enabled or disabled individually:
 - screenflash (likely turned invisible, flashes red when taking damage)
 - party (squared, enemy)
 - socialbutton -. the heads of the chat
+- three-column-bar - the bar that shows the control of a zone
+- zonecontrol - the specific three column bar on the main interface
