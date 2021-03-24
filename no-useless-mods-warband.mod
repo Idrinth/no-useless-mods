@@ -2,7 +2,7 @@
 
 <ModuleFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 
-	<UiMod name="NoUselessMods-Warband" version="1.4.0" date="2021-03-24" >
+	<UiMod name="NoUselessMods-Warband" version="1.5.0" date="2021-03-24" >
 
 		<Author name="Idrinth" />
 		
@@ -18,6 +18,9 @@
 		<Dependencies>
 			<Dependency name="Careful Core Functions" />
 		</Dependencies>
+		<Files>
+			<File name="no-useless-mods-warband.lua"/>
+		</Files>
 	</UiMod>
 
 </ModuleFile>
