@@ -2,7 +2,7 @@
 
 <ModuleFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 
-	<UiMod name="NoUselessMods-Assist" version="1.6.1" date="2021-04-02" >
+	<UiMod name="NoUselessMods-Assist" version="1.6.2" date="2021-04-15" >
 
 		<Author name="Idrinth" />
 		
