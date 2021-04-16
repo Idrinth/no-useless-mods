@@ -18,3 +18,6 @@ function GroupWindow.GetGroupMember( playerName )
     end
     return nil
 end
+function GroupWindow.GetMainAssist()
+    return nil
+end
